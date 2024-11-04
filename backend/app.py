@@ -5,11 +5,12 @@ from flask_jwt_extended import JWTManager, create_access_token, jwt_required, ge
 from models.part import Part
 from models.brand import Brand
 from models.user import User
+import os
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://autoparts_user:your_password@localhost/autoparts_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://autoparts_user:admin123@localhost/autoparts_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'  # Change this to a random secret key
+app.config['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'default_secret_key')
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)

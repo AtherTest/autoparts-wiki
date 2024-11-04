@@ -1,0 +1,6 @@
+https://partsouq.com/
+https://www.partsgeek.com/?srsltid=AfmBOoroEydwhUTg3eY0f3puMbrdO2i_DYeB6m0QgG5DetaSUFwc4X9z
+you are assigned as a senior software architect role and your task is to design a similar infrastructure shared above, aim is to have an autoparts wikipedia where system shoul have efficiency in searching parts, user should be able to apply different filters like year, model, brand, company and type etc. The system should have an admin panel where admin can manage users customers vendors and also product management where he can manage brands, make, model and other dimensions of product and definatly a product management.
+
+
+you can use python and postgres as backend and react with other parallel tools for make the system responsive interactive efficient and user friendly.

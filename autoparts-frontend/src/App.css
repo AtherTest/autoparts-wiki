@@ -1,0 +1,46 @@
+/* src/App.css */
+@import './variables.css';
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+.container {
+  padding: 20px;
+}
+
+.button {
+  background-color: var(--button-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.header, .footer {
+  background-color: var(--header-bg);
+  color: white;
+  padding: 15px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+}

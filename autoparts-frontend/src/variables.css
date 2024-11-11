@@ -1,0 +1,14 @@
+/* src/variables.css */
+:root {
+    --font-family: 'Arial', sans-serif;
+    --text-color: #333;
+    --heading-color: #222;
+    --link-color: #1a73e8;
+    --link-hover-color: #ff4646;
+    --button-color: #ff4646;
+    --button-hover-color: #cc3b3b;
+    --background-color: #f9f9f9;
+    --header-bg: #222;
+    --footer-bg: #333;
+  }
+  

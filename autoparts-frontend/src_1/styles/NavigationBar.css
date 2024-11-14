@@ -1,0 +1,19 @@
+/* src/styles/NavigationBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #222;
+    color: white;
+}
+
+.navbar a {
+    color: #1a73e8;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ff4646;
+}

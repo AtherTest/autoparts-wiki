@@ -1,0 +1,27 @@
+/* src/styles/BrandListing.css */
+.brand-listing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.brand-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-decoration: none;
+    color: inherit;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.brand-card:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+.brand-card img {
+    width: 100px;
+    height: auto;
+}
